@@ -1,8 +1,6 @@
 package com.bridgelabz.employeepayroll;
 
 public class EmployeeData {
-
-
 	private int employeeId;
 	private String employeeName;
 	private int employeeSalary;
