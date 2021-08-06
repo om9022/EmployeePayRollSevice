@@ -47,4 +47,11 @@ public class EmployeePayrollTest
 		assertEquals(3, entries);
 	}
 
+	@Test
+	public void givenFileOnReadindFromFileShouldMatchEmployeeCount() 
+	{
+		EmployeePayrollService employeePayrollService = new EmployeePayrollService();
+		long entries = employeePayrollService.readDataFromFile();
+		assertEquals(3, entries);
+	}
 }
